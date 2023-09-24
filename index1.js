@@ -12,12 +12,12 @@ function speedDetector(speed){
     if (speed < 70){
     return "ok";
     } else if ( speed > 70 && points < 13){
-    for (let point = 0; point < 13; point ++){
+    //for (let point = 0; point < 13; point ++)
         return points;
-    } }
+     }
     else (speed > 130)
     points > 13;
     return "License Suspended."
 }
-console.log(speedDetector (130));
+console.log(speedDetector (140));
   
