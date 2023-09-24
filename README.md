@@ -1,3 +1,6 @@
+FRIDAY CODE CHALLENGE
+Description
+This is a practice code session for my practice
 Challenge 1: Student Grade Generator (Toy Problem)
 
 Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
