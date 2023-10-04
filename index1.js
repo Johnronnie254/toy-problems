@@ -6,6 +6,7 @@
 // For example, if the speed is 80, it should print: “Points: 2”.
 // If the driver gets more than 12 points, the function should print: “License suspended”
 
+let speed = 67;
 function speedDetector(speed){
     let speedLimit = 70
      points = (speed/5) - (speedLimit/5);
@@ -19,5 +20,5 @@ function speedDetector(speed){
     points > 13;
     return "License Suspended."
 }
-console.log(speedDetector (100));
+console.log(speedDetector (speed));
   

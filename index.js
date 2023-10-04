@@ -2,7 +2,7 @@
 //  A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
 //the gradeGenerator function
-
+let grade = 26
 function gradeGenerator (grade){
     if(grade > 79){
         return "A";
@@ -15,4 +15,4 @@ function gradeGenerator (grade){
     } else (grade > 40)
     return "E"
 }
-console.log(gradeGenerator (89))
+console.log(gradeGenerator (grade))
